@@ -26,7 +26,7 @@ export const Dashboard: React.FC = () => {
               Authenticated Session
             </span>
             <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
-              Welcome back, {user?.username || "Admin"}! 👋
+              Welcome back, Hi {user?.username || "Admin"}! 👋
             </h1>
             <p className="text-indigo-200/80 text-sm max-w-xl">
               {SYSTEM_NAME} is active and online. You are signed in securely.
